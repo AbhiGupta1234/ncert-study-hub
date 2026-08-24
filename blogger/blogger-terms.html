@@ -1,0 +1,114 @@
+<div class="nsh">
+<style>
+.nsh { position: relative; color: #e9ebf5; font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; }
+.nsh * { margin: 0; padding: 0; box-sizing: border-box; }
+.nsh .bg-a, .nsh .bg-b { position: fixed; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
+.nsh .bg-a { width: 520px; height: 520px; top: -160px; right: -120px; background: rgba(124,140,255,.13) !important; }
+.nsh .bg-b { width: 460px; height: 460px; bottom: -180px; left: -140px; background: rgba(160,108,255,.10) !important; }
+.nsh .nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: rgba(11,14,23,.78) !important; border-bottom: 1px solid rgba(255,255,255,.09) !important; }
+.nsh .nav-inner { max-width: 1060px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.nsh .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #e9ebf5; }
+.nsh .brand-mark { width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800; font-size: 16px; color: #fff; background: linear-gradient(135deg,#7c8cff,#a06cff) !important; }
+.nsh .brand-name { font-weight: 800; font-size: 15.5px; letter-spacing: -.01em; }
+.nsh .nav-links { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+.nsh .nav-links a { color: #9aa1b8; text-decoration: none; font-size: 13.5px; font-weight: 600; padding: 7px 12px; border-radius: 9px; }
+.nsh .nav-links a:hover { color: #e9ebf5; background: rgba(255,255,255,.07) !important; }
+.nsh .wrap { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 44px 20px 44px; }
+.nsh h1 { font-size: clamp(26px,4.5vw,36px); font-weight: 800; letter-spacing: -.02em; }
+.nsh .updated { color: #9aa1b8; font-size: 13px; margin: 6px 0 26px; }
+.nsh h2 { font-size: 19px; font-weight: 700; margin: 30px 0 10px; text-align: left; }
+.nsh p, .nsh li { color: #9aa1b8; font-size: 14.5px; }
+.nsh p strong, .nsh li strong { color: #e9ebf5; }
+.nsh p { margin-bottom: 12px; }
+.nsh ul { padding-left: 22px; margin: 10px 0 16px; }
+.nsh li { margin-bottom: 7px; }
+.nsh a { color: #7c8cff; text-decoration: none; font-weight: 600; }
+.nsh code { font-family: Consolas, monospace; font-size: 12.5px; background: rgba(255,255,255,.07) !important; border: 1px solid rgba(255,255,255,.09) !important; border-radius: 6px; padding: 2px 7px; color: #e9ebf5; }
+.nsh .foot { border-top: 1px solid rgba(255,255,255,.09) !important; margin-top: 40px; padding-top: 24px; text-align: center; }
+.nsh .foot .flinks { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; margin-bottom: 10px; }
+.nsh .foot .flinks a { color: #9aa1b8; font-size: 13px; font-weight: 600; }
+.nsh .foot p { color: #9aa1b8; font-size: 12px; max-width: 640px; margin: 0 auto; line-height: 1.7; }
+@media (max-width: 640px) { .nsh .nav-inner { justify-content: center; } .nsh .nav-links { margin-left: 0; justify-content: center; } .nsh .wrap { padding-top: 30px; } }
+</style>
+<div class="bg-a"></div>
+<div class="bg-b"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/p/home.html">
+      <div class="brand-mark">10</div>
+      <span class="brand-name">NCERT Study Hub</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/p/home.html#features">Features</a>
+      <a href="/p/home.html#subjects">Subjects</a>
+      <a href="/p/home.html#download">Download</a>
+      <a href="/p/privacy-policy.html">Privacy Policy</a>
+      <a href="/p/terms-of-service.html">Terms of Service</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <h1>Terms of Service</h1>
+  <p class="updated">Last updated: August 23, 2026 &middot; Applies to NCERT Study Hub v1.0+ (Windows &amp; Android)</p>
+
+  <p>By downloading, installing or using NCERT Study Hub (the "App"), you agree to these Terms. If you do not agree, please do not use the App.</p>
+
+  <h2>1. Licence and permitted use</h2>
+  <ul>
+    <li>The App is released under the <strong>MIT licence</strong> and is provided free of charge for personal, educational use.</li>
+    <li>You may install it on any number of your own devices and share it in accordance with the MIT licence.</li>
+    <li>You may not present the App as your own product or remove its attribution.</li>
+  </ul>
+
+  <h2>2. NCERT content</h2>
+  <p>The App bundles chapter PDFs of NCERT Class 10 textbooks sourced from the official NCERT website (<code>ncert.nic.in</code>). These remain the intellectual property of the <strong>National Council of Educational Research and Training</strong>. The App is an independent study tool and is <strong>not affiliated with, endorsed by, or officially connected to NCERT or CBSE</strong>.</p>
+
+  <h2>3. Local accounts</h2>
+  <p>The email/password account you create exists only inside the App on your device to organise your data. It is not a registration with any online service, and we cannot recover passwords for you &mdash; so remember it, or use Google sign-in.</p>
+
+  <h2>4. Google Drive sync</h2>
+  <p>If you enable Google sync, you are responsible for your own Google account, for complying with Google's terms of service, and for the credentials you enter. The App stores backups only in its own app-data area of your Drive.</p>
+
+  <h2>5. AI tutor</h2>
+  <ul>
+    <li>The built-in AI tutor works out of the box: your questions are relayed through a server operated by the developer to Google's Gemini API. Use of the built-in tutor is subject to fair use; the service may be rate-limited, modified or discontinued at any time.</li>
+    <li>You may instead supply your own API key or endpoint in Settings; that key then takes priority and you comply with that provider's terms.</li>
+    <li><strong>AI responses can be wrong.</strong> Always verify important facts against your textbooks and teachers before relying on them for exams.</li>
+    <li>You are responsible for the content you send to AI providers. Do not use the tutor to generate unlawful, harmful or inappropriate content.</li>
+  </ul>
+
+  <h2>6. No warranty</h2>
+  <p>The App is provided <strong>"as is", without warranty of any kind</strong>, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. Accuracy of textbook PDFs is as published by NCERT; accuracy of AI answers is not guaranteed.</p>
+
+  <h2>7. Limitation of liability</h2>
+  <p>To the maximum extent permitted by law, the author shall not be liable for any claim, damages or other liability arising from, out of or in connection with the App or your use of it &mdash; including lost study data; please keep backups if your records matter to you.</p>
+
+  <h2>8. Acceptable use</h2>
+  <p>Do not use the App for any unlawful purpose, attempt to redistribute NCERT PDFs commercially, or use AI features in ways that violate your AI provider's usage policies (including academic-integrity rules that apply to you).</p>
+
+  <h2>9. Changes to the App and these terms</h2>
+  <p>New versions may change features, and these terms may be updated from time to time. Continued use of a new version after changes means you accept the updated terms; the version range at the top shows which releases they cover.</p>
+
+  <h2>10. Governing law</h2>
+  <p>These terms are governed by the laws of India.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about these terms? Please reach out via the project's GitHub repository or the contact option on the main site.</p>
+
+  <p><a href="/p/home.html">&larr; Back to home</a></p>
+
+  <div class="foot">
+    <div class="flinks">
+      <a href="/p/home.html">Home</a>
+      <a href="/p/home.html#download">Download</a>
+      <a href="/p/privacy-policy.html">Privacy Policy</a>
+      <a href="/p/terms-of-service.html">Terms of Service</a>
+    </div>
+    <p>&copy; 2026 NCERT Study Hub by AbhiGupta1234. Not affiliated with or endorsed by NCERT or CBSE.</p>
+  </div>
+
+</div>
+</div>

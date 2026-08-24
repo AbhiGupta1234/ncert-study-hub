@@ -1,0 +1,113 @@
+<div class="nsh">
+<style>
+.nsh { position: relative; color: #e9ebf5; font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.6; }
+.nsh * { margin: 0; padding: 0; box-sizing: border-box; }
+.nsh .bg-a, .nsh .bg-b { position: fixed; border-radius: 50%; filter: blur(90px); pointer-events: none; z-index: 0; }
+.nsh .bg-a { width: 520px; height: 520px; top: -160px; right: -120px; background: rgba(124,140,255,.13) !important; }
+.nsh .bg-b { width: 460px; height: 460px; bottom: -180px; left: -140px; background: rgba(160,108,255,.10) !important; }
+.nsh .nav { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); background: rgba(11,14,23,.78) !important; border-bottom: 1px solid rgba(255,255,255,.09) !important; }
+.nsh .nav-inner { max-width: 1060px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.nsh .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #e9ebf5; }
+.nsh .brand-mark { width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center; font-weight: 800; font-size: 16px; color: #fff; background: linear-gradient(135deg,#7c8cff,#a06cff) !important; }
+.nsh .brand-name { font-weight: 800; font-size: 15.5px; letter-spacing: -.01em; }
+.nsh .nav-links { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+.nsh .nav-links a { color: #9aa1b8; text-decoration: none; font-size: 13.5px; font-weight: 600; padding: 7px 12px; border-radius: 9px; }
+.nsh .nav-links a:hover { color: #e9ebf5; background: rgba(255,255,255,.07) !important; }
+.nsh .wrap { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 44px 20px 44px; }
+.nsh h1 { font-size: clamp(26px,4.5vw,36px); font-weight: 800; letter-spacing: -.02em; }
+.nsh .updated { color: #9aa1b8; font-size: 13px; margin: 6px 0 26px; }
+.nsh h2 { font-size: 19px; font-weight: 700; margin: 30px 0 10px; text-align: left; }
+.nsh p, .nsh li { color: #9aa1b8; font-size: 14.5px; }
+.nsh p strong, .nsh li strong { color: #e9ebf5; }
+.nsh p { margin-bottom: 12px; }
+.nsh ul { padding-left: 22px; margin: 10px 0 16px; }
+.nsh li { margin-bottom: 7px; }
+.nsh a { color: #7c8cff; text-decoration: none; font-weight: 600; }
+.nsh code { font-family: Consolas, monospace; font-size: 12.5px; background: rgba(255,255,255,.07) !important; border: 1px solid rgba(255,255,255,.09) !important; border-radius: 6px; padding: 2px 7px; color: #e9ebf5; }
+.nsh .foot { border-top: 1px solid rgba(255,255,255,.09) !important; margin-top: 40px; padding-top: 24px; text-align: center; }
+.nsh .foot .flinks { display: flex; justify-content: center; gap: 18px; flex-wrap: wrap; margin-bottom: 10px; }
+.nsh .foot .flinks a { color: #9aa1b8; font-size: 13px; font-weight: 600; }
+.nsh .foot p { color: #9aa1b8; font-size: 12px; max-width: 640px; margin: 0 auto; line-height: 1.7; }
+@media (max-width: 640px) { .nsh .nav-inner { justify-content: center; } .nsh .nav-links { margin-left: 0; justify-content: center; } .nsh .wrap { padding-top: 30px; } }
+</style>
+<div class="bg-a"></div>
+<div class="bg-b"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="/p/home.html">
+      <div class="brand-mark">10</div>
+      <span class="brand-name">NCERT Study Hub</span>
+    </a>
+    <nav class="nav-links">
+      <a href="/p/home.html#features">Features</a>
+      <a href="/p/home.html#subjects">Subjects</a>
+      <a href="/p/home.html#download">Download</a>
+      <a href="/p/privacy-policy.html">Privacy Policy</a>
+      <a href="/p/terms-of-service.html">Terms of Service</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: August 23, 2026 &middot; Applies to NCERT Study Hub v1.0+ (Windows &amp; Android)</p>
+
+  <p>NCERT Study Hub is a local-first app. This policy explains what data the app handles and who can see it. The short version: <strong>your study data never reaches us, because there is no "us" server.</strong></p>
+
+  <h2>1. Data stored on your device</h2>
+  <p>All of the following are saved locally on your PC or phone and are never transmitted to the app's developer:</p>
+  <ul>
+    <li>The name, email and password you use to create a local in-app account. Passwords are stored hashed, but note this account exists only inside the app on your device.</li>
+    <li>Your attendance records, chapter-completion progress and app settings.</li>
+    <li>Your AI tutor chat history.</li>
+  </ul>
+
+  <h2>2. What we do NOT collect</h2>
+  <ul>
+    <li><strong>No telemetry or analytics</strong> &mdash; the app makes no usage reports.</li>
+    <li><strong>No ads or trackers</strong>.</li>
+    <li><strong>No accounts on our servers</strong> &mdash; we operate no backend that could store your data.</li>
+    <li>We do not sell, share or have access to any of your personal information.</li>
+  </ul>
+
+  <h2>3. Optional Google sign-in and Drive sync</h2>
+  <p>If you choose "Continue with Google", the app uses Google's OAuth service purely to identify your account so it can save a backup of your progress and chats to <strong>your own Google Drive</strong>. Specifically:</p>
+  <ul>
+    <li>The app requests only the scopes needed to read/write its own single app-data file in your Drive (<code>drive.appdata</code>) and to know your email address and name.</li>
+    <li>Synced data goes directly from your device to Google's servers; it does not pass through any server operated by the developer.</li>
+    <li>You can revoke access at any time from your <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>.</li>
+  </ul>
+
+  <h2>4. AI tutor requests</h2>
+  <p>The AI tutor can work in two modes. If you enter your own API key, your messages are sent directly from your device to the provider you configured (for example Google Gemini or an OpenAI-compatible endpoint) and are handled under that provider's privacy policy. The developer never sees them.</p>
+  <p>If you use the built-in tutor (the default), your messages travel from the app through a relay server operated by the developer to Google's Gemini API, and the reply is sent back to your device. The relay forwards messages but does not store them; no chat content, account information or study data is saved on the relay or by the developer. Messages processed via the built-in tutor are additionally handled under Google's privacy policy and Gemini terms.</p>
+  <p>Your AI chat history itself stays on your device (and in your own Drive backup if cloud sync is on). If you do not use the AI tutor, no such requests are made.</p>
+
+  <h2>5. Children's privacy</h2>
+  <p>The app is intended for students and may be used by minors. Because the developer collects no data whatsoever, no personal information of any user &mdash; minor or adult &mdash; is collected, and parental consent is not required for data collection by us.</p>
+
+  <h2>6. Third-party content</h2>
+  <p>NCERT textbook PDFs bundled with the app are downloaded from the official NCERT website (<code>ncert.nic.in</code>). Their use remains governed by NCERT's own terms.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If future versions change how data is handled, this page will be updated and the version range at the top will reflect which releases it covers.</p>
+
+  <h2>8. Contact</h2>
+  <p>Questions about this policy? Please reach out via the project's GitHub repository or the contact option on the main site.</p>
+
+  <p><a href="/p/home.html">&larr; Back to home</a></p>
+
+  <div class="foot">
+    <div class="flinks">
+      <a href="/p/home.html">Home</a>
+      <a href="/p/home.html#download">Download</a>
+      <a href="/p/privacy-policy.html">Privacy Policy</a>
+      <a href="/p/terms-of-service.html">Terms of Service</a>
+    </div>
+    <p>&copy; 2026 NCERT Study Hub by AbhiGupta1234. Not affiliated with or endorsed by NCERT or CBSE.</p>
+  </div>
+
+</div>
+</div>

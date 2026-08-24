@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:responsive='true' b:version='2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta content='TFhi7uE-eB-ZbPzaeekXXVOtx-rMo0TDfnF8IDkMZes' name='google-site-verification'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+  <b:skin><![CDATA[/*
+<Variable name="keycolor" description="Main Color" type="color" default="#7c8cff" value="#7c8cff"/>
+*/
+body { margin: 0; padding: 0; background: #0b0e17; }
+.navbar, #navbar-iframe, .widget-item-control { display: none !important; height: 0 !important; }
+.post-feeds, .feed-links, .status-msg-wrap, .blog-pager, .comments, #comments { display: none !important; }
+]]></b:skin>
+</head>
+<body>
+  <script>if (location.pathname === '/') location.replace('/p/home.html');</script>
+  <b:section class='nsh-main' id='main' maxwidgets='1' showaddelement='no'>
+    <b:widget id='Blog1' locked='true' title='Pages' type='Blog' version='2'>
+      <b:includable id='main'>
+        <b:loop values='data:posts' var='post'>
+          <data:post.body/>
+        </b:loop>
+      </b:includable>
+    </b:widget>
+  </b:section>
+</body>
+</html>

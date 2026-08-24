@@ -59,7 +59,9 @@
       </ul>
 
       <h2>4. AI tutor requests</h2>
-      <p>The AI tutor sends the messages you type directly from your PC to the AI provider you configure (for example OpenAI, or any OpenAI-compatible endpoint). Those messages are handled under that provider's privacy policy. The developer never sees them. If you do not configure an AI provider, no such requests are made.</p>
+      <p>The AI tutor can work in two modes. If you enter your own API key, your messages are sent directly from your device to the provider you configured (for example Google Gemini or an OpenAI-compatible endpoint) and are handled under that provider's privacy policy. The developer never sees them.</p>
+      <p>If you use the built-in tutor (the default), your messages travel from the app through a relay server operated by the developer to Google's Gemini API, and the reply is sent back to your device. The relay forwards messages but does not store them; no chat content, account information or study data is saved on the relay or by the developer. Messages processed via the built-in tutor are additionally handled under Google's privacy policy and Gemini terms.</p>
+      <p>Your AI chat history itself stays on your device (and in your own Drive backup if cloud sync is on). If you do not use the AI tutor, no such requests are made.</p>
 
       <h2>5. Children's privacy</h2>
       <p>The app is intended for students and may be used by minors. Because the developer collects no data whatsoever, no personal information of any user — minor or adult — is collected, and parental consent is not required for data collection by us.</p>
